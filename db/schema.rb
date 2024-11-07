@@ -10,8 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_11_07_081851) do
-  create_table "products", charset: "utf8mb3", force: :cascade do |t|
+ActiveRecord::Schema[7.0].define(version: 2024_11_07_093616) do
+  create_table "prototypes", charset: "utf8mb3", force: :cascade do |t|
     t.string "name"
     t.text "copy"
     t.text "concept"
